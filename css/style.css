@@ -1,0 +1,42 @@
+html, body{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 1.4;
+	background-color: #fff;
+	padding: 20px;
+	height: 100%;
+	max-height: 100vh;
+}
+
+.grid-container {
+	padding: 15px;
+	max-width: 1200px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.title {
+	color: #000;
+	margin: 0;
+}
+
+.grid-row {
+	width: 100%;
+}
+
+.grid-item {
+	border: 5px solid #fff;
+	text-align: center;
+	height: 100%;
+}
+
+.grid-item--grey {
+	background-color: grey;
+}
+
+.grid-item--green {
+	background-color: green;
+}
