@@ -11,7 +11,7 @@ html, body{
 }
 
 .grid-container {
-	padding: 15px;
+	padding: 0;
 	max-width: 1200px;
 	width: 100%;
 	margin-left: auto;
@@ -28,15 +28,12 @@ html, body{
 }
 
 .grid-item {
-	border: 5px solid #fff;
-	text-align: center;
 	height: 100%;
+	border: 5px solid #fff;
 }
 
-.grid-item--grey {
-	background-color: grey;
-}
-
-.grid-item--green {
-	background-color: green;
+.img-responsive {
+	max-width: 100%;
+	height: auto;
+	display: block;
 }
